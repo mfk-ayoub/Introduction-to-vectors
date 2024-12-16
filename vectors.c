@@ -35,3 +35,15 @@ float dot_product(t_vec3 v1, t_vec3 v2)
 {
 	return ((v1.x * v2.x) + (v1.y * v2.y) +(v1.z * v2.z));
 }
+
+float vector_magnitude(t_vec3 vector)
+{
+    return (sqrt((vector.x * vector.x) + (vector.y * vector.y) + (vector.z * vector.z)));
+}
+
+t_vec3 vector_normalize(t_vec3 vector)
+{
+	t_vec3 vec;
+
+	
+}
